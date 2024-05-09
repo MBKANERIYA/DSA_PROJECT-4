@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <script>
+            let set = new Set()
+            set.add(11)
+            set.add(12)
+            set.add(11)
+            set.add(13)
+            set.has(11)
+            set.delete(12)
+            console.log(set);
+
+
+            let ws = new WeakSet()
+            ws.add({ name: "maulik"})
+            ws.has("maulik")
+            console.log(ws);
+
+
+            let map = new Map()
+            map.set("first name", "maulik")
+            map.set("last name", "kaneriya")
+            console.log(map);
+
+        </script>
+    </body>
+
+</html>
